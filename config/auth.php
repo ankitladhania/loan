@@ -104,4 +104,11 @@ return [
         ],
     ],
 
+    'api' => [
+      'access_token' => [
+        'secret' => env('API_ACCESS_TOKEN_SECRET'),
+        'algos' => ['HS256']
+      ]
+    ]
+
 ];
